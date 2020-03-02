@@ -1,0 +1,53 @@
+.small{
+    width: 10%;
+    margin-top: 10px;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 100%;
+    padding: 10px 25px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  .highlight{
+      border: 1px solid greenyellow;
+  }
+  .text-truncate { 
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  .hash-tag{
+      max-width: 150px;
+      display: inline-block;
+      vertical-align: bottom;
+  }
+  table{
+      table-layout: fixed;
+  }
+  .Text-muted{
+    color:rgb(180, 174, 174);
+  }
+.navbar-color{
+    background-color: rgba(225, 225, 225, 0.397);
+}
+
+.logout{
+  text-decoration: none;
+  color: red;
+}
+
+.logout:hover{
+  text-decoration: none;
+  color: white;
+}
+
+.groupcenter{
+  width: 50%;
+  margin: 0 auto;
+}
+
+/* Tool Tip */
